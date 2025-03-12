@@ -1,0 +1,56 @@
+/* Number.css */
+
+.PhoneInput {
+    text-align: center; /* Center the text inside the PhoneInput */
+}
+
+.PhoneInput input {
+    text-align: center; /* Center the text inside the input field */
+    color: #000; /* Makes the text inside the PhoneInput black */
+}
+
+/* Change the inner focus border color */
+.PhoneInputInput:focus {
+    outline: none;
+    border-color: #ff5733; /* Replace with your preferred color */
+    box-shadow: 0 0 0 px #ff5733; /* Adds a custom focus border */
+}
+
+h2 {
+    color: #000; /* Makes the message text black */
+}
+
+.text-gray-700 {
+    color: #000; /* Overrides gray text color for more black */
+}
+
+.text-black {
+    color: #000; /* Utility class to set text color to black */
+}
+
+/* Ensure the PhoneInput's input text color is properly set */
+.PhoneInput input::placeholder {
+    color: #999; /* Adjust placeholder color if needed */
+}
+
+/* Assuming this is in your CSS file */
+body {
+    background-color: white; /* Change to white or your desired color */
+}
+
+.Conts {
+    background-color: white; /* Ensure your container is white */
+}
+.loader {
+    border: 7px solid #595959;
+    border-top: 4px solid #fafa00;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

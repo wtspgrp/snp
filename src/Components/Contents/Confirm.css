@@ -1,0 +1,82 @@
+/* confirm2.css */
+
+/* Style the phone input */
+.PhoneInput {
+    text-align: center;
+}
+
+.PhoneInput input {
+    text-align: center;
+    color: #000;
+    background-color: #ffffff !important; /* Force white background */
+}
+
+/* Input field for verification code */
+input[type="tel"] {
+    background-color: #ffffff !important; /* White background */
+    border: 1px solid #d1d5db;
+    color: #1f2937;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+}
+
+input[type="tel"]::placeholder {
+    color: #9ca3af;
+}
+
+/* Loader color */
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #FFD700;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Text styles */
+h2 {
+    color: #000;
+}
+
+.text-gray-700 {
+    color: #000;
+}
+
+.text-black {
+    color: #000;
+}
+
+.PhoneInput input::placeholder {
+    color: #999;
+}
+
+/* Button styles */
+button {
+    background-color: #FFD700;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFC300;
+}
+
+/* Page background */
+body {
+    background-color: #ffffff;
+}
+
+.Conts {
+    background-color: #ffffff;
+}

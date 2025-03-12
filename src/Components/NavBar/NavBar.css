@@ -1,0 +1,81 @@
+.NavbarItems {
+    background-color: #fff47a;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 50px;
+}
+
+.empty-menu {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-menu {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin: 3px 0;
+    transition: background-color 0.3s;
+}
+
+.download-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #fff200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-arrow {
+    color: black;
+    font-size: 20px;
+}
+
+.NavbarItems > * {
+    flex-shrink: 0;
+}
+
+/* Customizing the Arabic heading */
+.arabic-heading {
+    font-size: 1.3rem; /* Adjust the font size as needed */
+    flex-grow: 1;
+    margin-right: 15px;
+	margin-left: 15px;
+
+}
+
+@media screen and (max-width: 960px) {
+    .NavbarItems {
+        padding: 0 10px;
+    }
+}
